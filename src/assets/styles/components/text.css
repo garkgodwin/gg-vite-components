@@ -1,0 +1,188 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+
+  --txt-color-1: var(--system-gray-8);
+
+  --heading-font: var(--secondary-font);
+
+  --padding-1: 4px;
+  --padding-2: 6px;
+  --padding-3: 8px;
+  --padding-4: 10px;
+  --padding-5: 12px;
+  --padding-6: 14px;
+  --padding-7: 16px;
+  --padding-8: 18px;
+  --padding-9: 20px;
+  --padding-10: 22px;
+
+  --font-size-1: 16px;
+  --font-size-2: 18px;
+  --font-size-3: 20px;
+  --font-size-4: 22px;
+  --font-size-5: 24px;
+  --font-size-6: 26px;
+  --font-size-7: 28px;
+  --font-size-8: 30px;
+  --font-size-9: 32px;
+  --font-size-10: 34px;
+
+  --font-weight-1: 400;
+  --font-weight-2: 600;
+  --font-weight-3: 800;
+
+  --letter-spacing-1: 0.1px;
+  --letter-spacing-2: 0.2px;
+  --letter-spacing-3: 0.3px;
+  --letter-spacing-4: 0.4px;
+  --letter-spacing-5: 0.5px;
+  --letter-spacing-6: 0.6px;
+  --letter-spacing-7: 0.7px;
+  --letter-spacing-8: 0.8px;
+  --letter-spacing-9: 0.9px;
+  --letter-spacing-10: 1px;
+
+  --line-height-1: 20px;
+  --line-height-2: 24px;
+  --line-height-3: 28px;
+  --line-height-4: 32px;
+  --line-height-5: 36px;
+  --line-height-6: 40px;
+  --line-height-7: 44px;
+  --line-height-8: 48px;
+  --line-height-9: 52px;
+  --line-height-10: 58px;
+}
+
+[data-theme="dark"] {
+  --txt-color-1: var(--system-gray-2);
+}
+
+/* DEFAULT */
+.txt {
+  color: var(--txt-color-1);
+  font-family: var(--font-primary);
+}
+
+.txt.txt-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* DEFAULT SIZE */
+.txt {
+  margin: 0;
+  padding: 0;
+  font-weight: var(--font-weight-4);
+  font-size: var(--font-size-1);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(--line-height-1);
+  width: auto !important;
+}
+.txt.txt-md {
+  font-size: var(--font-size-2);
+  letter-spacing: var(--letter-spacing-2);
+  line-height: var(--line-height-2);
+}
+.txt.txt-lg {
+  font-size: var(--font-size-3);
+  letter-spacing: var(--letter-spacing-3);
+  line-height: var(--line-height-3);
+}
+
+/* HEADER - H1 */
+.txt.txt-h1 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-8);
+  letter-spacing: var(--letter-spacing-8);
+  line-height: var(--line-height-8);
+  font-weight: var(--font-weight-3);
+  padding: 0;
+}
+.txt.txt-h1.txt-md {
+  font-size: var(--font-size-9);
+  letter-spacing: var(--letter-spacing-9);
+  line-height: var(--line-height-9);
+}
+.txt.txt-h1.txt-lg {
+  font-size: var(--font-size-10);
+  letter-spacing: var(--letter-spacing-10);
+  line-height: var(--line-height-10);
+}
+/* HEADER - H2 */
+.txt.txt-h2 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-7);
+  letter-spacing: var(--letter-spacing-7);
+  line-height: var(--line-height-7);
+  font-weight: var(--font-weight-2);
+  padding: 0;
+}
+.txt.txt-h2.txt-md {
+  font-size: var(--font-size-8);
+}
+.txt.txt-h2.txt-lg {
+  font-size: var(--font-size-9);
+}
+/* HEADER - H3 */
+.txt.txt-h3 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-6);
+  letter-spacing: var(--letter-spacing-6);
+  line-height: var(--line-height-6);
+  font-weight: var(--font-weight-2);
+  padding: 0;
+}
+.txt.txt-h3.txt-md {
+  font-size: var(--font-size-7);
+}
+.txt.txt-h3.txt-lg {
+  font-size: var(--font-size-8);
+}
+
+/* HEADER - H4 */
+.txt.txt-h4 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-5);
+  letter-spacing: var(--letter-spacing-5);
+  line-height: var(--line-height-5);
+  font-weight: var(--font-weight-2);
+  padding: 0;
+}
+.txt.txt-h4.txt-md {
+  font-size: var(--font-size-6);
+}
+.txt.txt-h4.txt-lg {
+  font-size: var(--font-size-7);
+}
+
+/* HEADER - H5 */
+.txt.txt-h5 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-4);
+  letter-spacing: var(--letter-spacing-4);
+  line-height: var(--line-height-4);
+  font-weight: var(--font-weight-2);
+  padding: 0;
+}
+.txt.txt-h5.txt-md {
+  font-size: var(--font-size-5);
+}
+.txt.txt-h5.txt-lg {
+  font-size: var(--font-size-6);
+}
+/* HEADER - H6 */
+.txt.txt-h6 {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-3);
+  letter-spacing: var(--letter-spacing-3);
+  line-height: var(--line-height-3);
+  font-weight: var(--font-weight-2);
+  padding: 0;
+}
+.txt.txt-h6.txt-md {
+  font-size: var(--font-size-4);
+}
+.txt.txt-h6.txt-lg {
+  font-size: var(--font-size-5);
+}

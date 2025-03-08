@@ -1,0 +1,79 @@
+/* Root Theme (Light Mode by Default) */
+:root {
+  /* FONT */
+  --font-family: "Inter", sans-serif;
+  /* Monochromatic Cold Blue Palette */
+  /* PRIMARY */
+  --color-base-darkest: #223149; /* Deep Navy Blue */
+  --color-base-darker: #334a67; /* Dark Muted Blue */
+  --color-base-dark: #3d5676; /* Muted Blue */
+  --color-base: #4c6a92; /* Muted Blue */
+  --color-base-light: #5779a4; /* Muted Blue */
+  --color-base-lighter: #698fc1; /* Soft Cool Blue */
+  --color-base-lightest: #78a2d7; /* Pale Ice Blue */
+
+  /* SECONDARY */
+  --color-secondary-darkest: #264541;
+  --color-secondary-darker: #355f5a;
+  --color-secondary-dark: #3e756f;
+  --color-secondary: #4c928a;
+  --color-secondary-light: #58a79e;
+  --color-secondary-lighter: #7dc2ba;
+  --color-secondary-lightest: #a8e3dc;
+
+  /* SYSTEM GRAYS */
+  --system-gray-0: #ffffff; /* White */
+  --system-gray-1: #f8f9fa;
+  --system-gray-2: #e9ecef;
+  --system-gray-3: #dee2e6;
+  --system-gray-4: #ced4da;
+  --system-gray-5: #adb5bd;
+  --system-gray-6: #868e96;
+  --system-gray-7: #495057;
+  --system-gray-8: #343a40;
+  --system-gray-9: #212529; /* Almost Black */
+  --system-gray-10: #000000; /* Black */
+
+  /* Backgrounds */
+  --background-dark: #132135;
+  --background-light: #e6f2ff;
+  --background-accent: var(--color-secondary);
+
+  /* Text Colors */
+  --text-primary: var(--color-darkest);
+  --text-secondary: var(--color-darker);
+  --text-muted: var(--color-lighter);
+
+  /* Shadows */
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.2);
+
+  /* SIZES */
+  --border-radius-1: 4px;
+  --border-radius-2: 8px;
+  --border-radius-3: 12px;
+  --border-radius-4: 16px;
+  --border-radius-5: 20px;
+  --border-radius-6: 24px;
+
+  --padding-1: 4px;
+  --padding-2: 8px;
+  --padding-3: 12px;
+  --padding-4: 16px;
+  --padding-5: 20px;
+  --padding-6: 24px;
+
+  /* Background */
+  --bg: var(--background-light);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* Background */
+  --bg: var(--background-dark);
+}
+
+body {
+  background-color: var(--bg);
+  font-family: var(--font-family);
+}

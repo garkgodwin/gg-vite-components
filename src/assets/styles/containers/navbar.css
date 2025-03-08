@@ -1,0 +1,32 @@
+:root {
+  --navbar-bg-color: var(--color-base-darkest);
+  --navbar-txt-color: var(--color-base-lightest);
+}
+[data-theme="dark"] {
+  --navbar-bg-color: var(--color-base-lightest);
+  --navbar-txt-color: var(--color-base-darkest);
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-txt-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 8px;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.navbar-brand .txt {
+  color: var(--navbar-txt-color);
+}
+.navbar-menu a {
+  text-decoration: none;
+  color: var(--navbar-txt-color);
+}

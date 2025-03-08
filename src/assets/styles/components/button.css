@@ -1,0 +1,645 @@
+/* Root Theme (Light Mode by Default) */
+:root {
+  /* Button Colors */
+
+  /* Buttons & UI Elements */
+  /* -------------------------------------------------------------------PRIMARY - COLOR */
+  --btn-primary-bg-color: var(--color-base-dark);
+  --btn-primary-border-color: var(--color-base-dark);
+  --btn-primary-txt-color: var(--system-gray-2);
+  /* PRIMARY - COLOR - HOVER */
+  --btn-primary-hover-bg-color: var(--color-base-darker);
+  --btn-primary-hover-border-color: var(--color-base-darker);
+  /* PRIMARY - COLOR - DISABLED */
+  --btn-primary-disabled-bg-color: var(--color-base-light);
+  --btn-primary-disabled-border-color: var(--color-base-light);
+  --btn-primary-disabled-txt-color: var(--color-base-dark);
+  /* PRIMARY - COLOR - FOCUSED */
+  --btn-primary-focused-bg-color: var(--color-base-darkest);
+  --btn-primary-focused-border-color: var(--color-base-darkest);
+  --btn-primary-focused-txt-color: var(--system-gray-1);
+  /* PRIMARY - COLOR - OUTLINED */
+  --btn-primary-outlined-border-color: var(--color-base-dark);
+  --btn-primary-outlined-txt-color: var(--color-base-dark);
+  /* PRIMARY - COLOR - OUTLINED - HOVER */
+  --btn-primary-outlined-hover-bg-color: var(--color-base-darker);
+  --btn-primary-outlined-hover-hover-color: var(--color-base-darker);
+  --btn-primary-outlined-hover-txt-color: var(--system-gray-2);
+  /* PRIMARY - COLOR - OUTLINED - FOCUSED */
+  --btn-primary-outlined-focused-bg-color: var(--color-base-darkest);
+  --btn-primary-outlined-focused-border-color: var(
+    --color-base-darkest
+  );
+  --btn-primary-outlined-focused-txt-color: var(--system-gray-0);
+  /* ---------------------------------------------------------------------PRIMARY TOGGLES */
+  /* PRIMARY - COLOR - TOGGLE - ON - DEFAULT*/
+  --btn-primary-toggle-border-color: var(--color-base-dark);
+  --btn-primary-toggle-bg-color: var(--color-base-dark);
+  --btn-primary-toggle-txt-color: var(--system-gray-2);
+  --btn-primary-toggle-toggler-bg-color: var(--color-base-darker);
+  /* PRIMARY - COLOR - TOGGLE - ON - DEFAULT - HOVER */
+  --btn-primary-toggle-hover-bg-color: var(--color-base-darker);
+  --btn-primary-toggle-hover-border-color: var(--color-base-darker);
+  --btn-primary-toggle-toggler-hover-bg-color: var(
+    --color-base-darkest
+  );
+  /* PRIMARY - COLOR - TOGGLE - FOCUS */
+  --btn-primary-toggle-focus-border-color: var(--color-base-darkest);
+  --btn-primary-toggle-focus-bg-color: var(--color-base-darkest);
+  --btn-primary-toggle-focus-txt-color: var(--system-gray-0);
+  --btn-primary-toggle-focus-toggler-bg-color: var(
+    --color-base-darker
+  );
+  /* PRIMARY - COLOR - TOGGLE - OFF*/
+  --btn-primary-toggle-off-border-color: var(--color-base-light);
+  --btn-primary-toggle-off-bg-color: var(--color-base-light);
+  --btn-primary-toggle-off-txt-color: var(--system-gray-8);
+  --btn-primary-toggle-off-toggler-bg-color: var(
+    --color-base-lighter
+  );
+  /* PRIMARY - COLOR - TOGGLE - OFF - HOVER */
+  --btn-primary-toggle-off-hover-bg-color: var(--color-base-lighter);
+  --btn-primary-toggle-off-hover-border-color: var(
+    --color-base-lighter
+  );
+  --btn-primary-toggle-off-toggler-hover-bg-color: var(
+    --color-base-lightest
+  );
+  /* PRIMARY - COLOR - TOGGLE - OFF - FOCUS */
+  --btn-primary-toggle-off-focus-border-color: var(
+    --color-base-lightest
+  );
+  --btn-primary-toggle-off-focus-bg-color: var(--color-base-lightest);
+  --btn-primary-toggle-off-focus-txt-color: var(--system-gray-10);
+  --btn-primary-toggle-off-focus-toggler-bg-color: var(
+    --color-base-lighter
+  );
+
+  /* SECONDARY - COLOR */
+  --btn-secondary-bg-color: var(--color-secondary-darker);
+  --btn-secondary-border-color: var(--color-secondary-darker);
+  --btn-secondary-txt-color: var(--system-gray-0);
+  /* SECONDARY - COLOR - HOVER */
+  --btn-secondary-hover-bg-color: var(--color-secondary-darkest);
+  --btn-secondary-hover-border-color: var(--color-secondary-darkest);
+  /* SECONDARY - COLOR - DISABLED */
+  --btn-secondary-disabled-bg-color: var(--color-secondary-lighter);
+  --btn-secondary-disabled-border-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-disabled-txt-color: var(--color-secondary-darker);
+  /* SECONDARY - COLOR - FOCUSED */
+  --btn-secondary-focused-bg-color: var(--system-gray-10);
+  --btn-secondary-focused-border-color: var(--system-gray-10);
+  --btn-secondary-focused-txt-color: var(--system-gray-0);
+  /* SECONDARY - COLOR - OUTLINED */
+  --btn-secondary-outlined-border-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-outlined-txt-color: var(--color-secondary-darker);
+  /* SECONDARY - COLOR - OUTLINED - HOVER */
+  --btn-secondary-outlined-hover-bg-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-outlined-hover-border-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-outlined-hover-txt-color: var(--system-gray-0);
+  /* SECONDARY - COLOR - OUTLINED - FOCUSED */
+  --btn-secondary-outlined-focused-bg-color: var(--system-gray-10);
+  --btn-secondary-outlined-focused-border-color: var(
+    --system-gray-10
+  );
+  --btn-secondary-outlined-focused-txt-color: var(--system-gray-0);
+
+  /* ---------------------------------------------------------------------SECONDARY TOGGLES */
+  /* SECONDARY - COLOR - TOGGLE - ON*/
+  --btn-secondary-toggle-border-color: var(--color-secondary-dark);
+  --btn-secondary-toggle-bg-color: var(--color-secondary-dark);
+  --btn-secondary-toggle-txt-color: var(--system-gray-2);
+  --btn-secondary-toggle-toggler-bg-color: var(
+    --color-secondary-darker
+  );
+  /* SECONDARY- COLOR - TOGGLE - ON - HOVER */
+  --btn-secondary-toggle-hover-bg-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-toggle-hover-border-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-toggle-toggler-hover-bg-color: var(
+    --color-secondary-darkest
+  );
+  /* SECONDARY - COLOR - TOGGLE - FOCUS */
+  --btn-secondary-toggle-focus-border-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-toggle-focus-bg-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-toggle-focus-txt-color: var(--system-gray-0);
+  --btn-secondary-toggle-focus-toggler-bg-color: var(
+    --color-secondary-darker
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF*/
+  --btn-secondary-toggle-off-border-color: var(
+    --color-secondary-light
+  );
+  --btn-secondary-toggle-off-bg-color: var(--color-secondary-light);
+  --btn-secondary-toggle-off-txt-color: var(--system-gray-8);
+  --btn-secondary-toggle-off-toggler-bg-color: var(
+    --color-secondary-lighter
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF - HOVER */
+  --btn-secondary-toggle-off-hover-bg-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-toggle-off-hover-border-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-toggle-off-toggler-hover-bg-color: var(
+    --color-secondary-lightest
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF - FOCUS */
+  --btn-secondary-toggle-off-focus-border-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-toggle-off-focus-bg-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-toggle-off-focus-txt-color: var(--system-gray-10);
+  --btn-secondary-toggle-off-focus-toggler-bg-color: var(
+    --color-secondary-lighter
+  );
+
+  --btn-border-color: var(--color-lighter);
+
+  --btn-border-radius: var(--border-radius-2);
+
+  --btn-padding-sm: 8px;
+  --btn-padding-md: 10px;
+  --btn-padding-lg: 12px;
+
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* PRIMARY - COLOR */
+  --btn-primary-bg-color: var(--color-base-lighter);
+  --btn-primary-border-color: var(--color-base-lighter);
+  --btn-primary-txt-color: var(--system-gray-10);
+  /* PRIMARY - COLOR - HOVER */
+  --btn-primary-hover-bg-color: var(--color-base-lightest);
+  --btn-primary-hover-border-color: var(--color-base-lightest);
+  /* PRIMARY - COLOR - DISABLED */
+  --btn-primary-disabled-bg-color: var(--color-base-darker);
+  --btn-primary-disabled-border-color: var(--color-base-darker);
+  --btn-primary-disabled-txt-color: var(--color-base-lighter);
+  /* PRIMARY - COLOR - FOCUSED */
+  --btn-primary-focused-bg-color: var(--system-gray-0);
+  --btn-primary-focused-border-color: var(--system-gray-0);
+  --btn-primary-focused-txt-color: var(--system-gray-10);
+  /* PRIMARY - COLOR - OUTLINED */
+  --btn-primary-outlined-border-color: var(--color-base-lighter);
+  --btn-primary-outlined-txt-color: var(--color-base-lighter);
+  /* PRIMARY - COLOR - OUTLINED - HOVER */
+  --btn-primary-outlined-hover-bg-color: var(--color-base-lightest);
+  --btn-primary-outlined-hover-hover-color: var(
+    --color-base-lightest
+  );
+  --btn-primary-outlined-hover-txt-color: var(--system-gray-10);
+  /* PRIMARY - COLOR - OUTLINED - FOCUSED */
+  --btn-primary-outlined-focused-bg-color: var(--system-gray-0);
+  --btn-primary-outlined-focused-border-color: var(--system-gray-0);
+  --btn-primary-outlined-focused-txt-color: var(--system-gray-10);
+
+  /* ---------------------------------------------------------------------PRIMARY TOGGLES */
+  /* PRIMARY - COLOR - TOGGLE - ON - DEFAULT*/
+  --btn-primary-toggle-border-color: var(--color-base-light);
+  --btn-primary-toggle-bg-color: var(--color-base-light);
+  --btn-primary-toggle-txt-color: var(--system-gray-8);
+  --btn-primary-toggle-toggler-bg-color: var(--color-base-lighter);
+  /* PRIMARY - COLOR - TOGGLE - ON - DEFAULT - HOVER */
+  --btn-primary-toggle-hover-bg-color: var(--color-base-lighter);
+  --btn-primary-toggle-hover-border-color: var(--color-base-lighter);
+  --btn-primary-toggle-toggler-hover-bg-color: var(
+    --color-base-lightest
+  );
+  /* PRIMARY - COLOR - TOGGLE - FOCUS */
+  --btn-primary-toggle-focus-border-color: var(--color-base-lightest);
+  --btn-primary-toggle-focus-bg-color: var(--color-base-lightest);
+  --btn-primary-toggle-focus-txt-color: var(--system-gray-10);
+  --btn-primary-toggle-focus-toggler-bg-color: var(
+    --color-base-lighter
+  );
+  /* PRIMARY - COLOR - TOGGLE - OFF*/
+  --btn-primary-toggle-off-border-color: var(--color-base-dark);
+  --btn-primary-toggle-off-bg-color: var(--color-base-dark);
+  --btn-primary-toggle-off-txt-color: var(--system-gray-2);
+  --btn-primary-toggle-off-toggler-bg-color: var(--color-base-darker);
+  /* PRIMARY - COLOR - TOGGLE - OFF - HOVER */
+  --btn-primary-toggle-off-hover-bg-color: var(--color-base-darker);
+  --btn-primary-toggle-off-hover-border-color: var(
+    --color-base-darker
+  );
+  --btn-primary-toggle-off-toggler-hover-bg-color: var(
+    --color-base-darkest
+  );
+  /* PRIMARY - COLOR - TOGGLE - OFF - FOCUS */
+  --btn-primary-toggle-off-focus-border-color: var(
+    --color-base-darkest
+  );
+  --btn-primary-toggle-off-focus-bg-color: var(--color-base-darkest);
+  --btn-primary-toggle-off-focus-txt-color: var(--system-gray-0);
+  --btn-primary-toggle-off-focus-toggler-bg-color: var(
+    --color-base-darker
+  );
+
+  /* SECONDARY - COLOR */
+  --btn-secondary-bg-color: var(--color-secondary-lighter);
+  --btn-secondary-border-color: var(--color-secondary-lighter);
+  --btn-secondary-txt-color: var(--system-gray-10);
+  /* SECONDARY - COLOR - HOVER */
+  --btn-secondary-hover-bg-color: var(--color-secondary-lightest);
+  --btn-secondary-hover-border-color: var(--color-secondary-lightest);
+  /* SECONDARY - COLOR - DISABLED */
+  --btn-secondary-disabled-bg-color: var(--color-secondary-darker);
+  --btn-secondary-disabled-border-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-disabled-txt-color: var(--color-secondary-lighter);
+  /* SECONDARY - COLOR - FOCUSED */
+  --btn-secondary-focused-bg-color: var(--system-gray-0);
+  --btn-secondary-focused-border-color: var(--system-gray-0);
+  --btn-secondary-focused-txt-color: var(--system-gray-10);
+  /* SECONDARY - COLOR - OUTLINED */
+  --btn-secondary-outlined-border-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-outlined-txt-color: var(--color-secondary-lighter);
+  /* SECONDARY - COLOR - OUTLINED - HOVER */
+  --btn-secondary-outlined-hover-bg-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-outlined-hover-border-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-outlined-hover-txt-color: var(--system-gray-10);
+  /* SECONDARY - COLOR - OUTLINED - FOCUSED */
+  --btn-secondary-outlined-focused-bg-color: var(--system-gray-0);
+  --btn-secondary-outlined-focused-border-color: var(--system-gray-0);
+  --btn-secondary-outlined-focused-txt-color: var(--system-gray-10);
+
+  /* ---------------------------------------------------------------------SECONDARY TOGGLES */
+  /* SECONDARY - COLOR - TOGGLE - ON*/
+  --btn-secondary-toggle-border-color: var(--color-secondary-light);
+  --btn-secondary-toggle-bg-color: var(--color-secondary-light);
+  --btn-secondary-toggle-txt-color: var(--system-gray-8);
+  --btn-secondary-toggle-toggler-bg-color: var(
+    --color-secondary-lighter
+  );
+  /* SECONDARY- COLOR - TOGGLE - ON - HOVER */
+  --btn-secondary-toggle-hover-bg-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-toggle-hover-border-color: var(
+    --color-secondary-lighter
+  );
+  --btn-secondary-toggle-toggler-hover-bg-color: var(
+    --color-secondary-lightest
+  );
+  /* SECONDARY - COLOR - TOGGLE - FOCUS */
+  --btn-secondary-toggle-focus-border-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-toggle-focus-bg-color: var(
+    --color-secondary-lightest
+  );
+  --btn-secondary-toggle-focus-txt-color: var(--system-gray-10);
+  --btn-secondary-toggle-focus-toggler-bg-color: var(
+    --color-secondary-lighter
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF*/
+  --btn-secondary-toggle-off-border-color: var(
+    --color-secondary-dark
+  );
+  --btn-secondary-toggle-off-bg-color: var(--color-secondary-dark);
+  --btn-secondary-toggle-off-txt-color: var(--system-gray-2);
+  --btn-secondary-toggle-off-toggler-bg-color: var(
+    --color-secondary-darker
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF - HOVER */
+  --btn-secondary-toggle-off-hover-bg-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-toggle-off-hover-border-color: var(
+    --color-secondary-darker
+  );
+  --btn-secondary-toggle-off-toggler-hover-bg-color: var(
+    --color-secondary-darker
+  );
+  /* SECONDARY - COLOR - TOGGLE - OFF - FOCUS */
+  --btn-secondary-toggle-off-focus-border-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-toggle-off-focus-bg-color: var(
+    --color-secondary-darkest
+  );
+  --btn-secondary-toggle-off-focus-txt-color: var(--system-gray-0);
+  --btn-secondary-toggle-off-focus-toggler-bg-color: var(
+    --color-secondary-darker
+  );
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 4px;
+  border-radius: var(--btn-border-radius);
+  font-weight: 500;
+}
+
+/* DEFAULT SIZE - SM */
+.btn {
+  font-size: var(--font-size-sm);
+  padding: var(--btn-padding-sm);
+}
+/* SIZE - MD */
+.btn.btn-md {
+  font-size: var(--font-size-md);
+  padding: var(--btn-padding-md);
+}
+/* SIZE - LG */
+.btn.btn-lg {
+  font-size: var(--font-size-lg) !important;
+  padding: var(--btn-padding-lg) !important;
+}
+
+/* DEFAULT COLORS - PRIMARY */
+.btn {
+  color: var(--btn-primary-txt-color);
+  background-color: var(--btn-primary-bg-color);
+  border: 3px solid var(--btn-primary-border-color);
+}
+.btn:hover {
+  background-color: var(--btn-primary-hover-bg-color);
+  border-color: var(--btn-primary-hover-border-color);
+}
+.btn:disabled {
+  background-color: var(--btn-primary-disabled-bg-color);
+  border-color: var(--btn-primary-disabled-border-color);
+  color: var(--btn-primary-disabled-txt-color);
+}
+.btn:focus {
+  background-color: var(--btn-primary-focused-bg-color);
+  border-color: var(--btn-primary-focused-border-color);
+  color: var(--btn-primary-focused-txt-color);
+}
+/* SECONDARY - BUTTON COLORS */
+.btn.btn-secondary {
+  color: var(--btn-secondary-txt-color);
+  border-color: var(--btn-secondary-border-color);
+  background-color: var(--btn-secondary-bg-color);
+}
+.btn.btn-secondary:hover {
+  background-color: var(--btn-secondary-hover-bg-color);
+  border-color: var(--btn-secondary-hover-border-color);
+}
+.btn.btn-secondary:disabled {
+  background-color: var(--btn-secondary-disabled-bg-color);
+  border-color: var(--btn-secondary-disabled-border-color);
+  color: var(--btn-secondary-disabled-txt-color);
+}
+.btn.btn-secondary:focus {
+  background-color: var(--btn-secondary-focused-bg-color);
+  border-color: var(--btn-secondary-focused-border-color);
+  color: var(--btn-secondary-focused-txt-color);
+}
+
+/* PRIMARY - OUTLINED */
+.btn.btn-primary.btn-outlined {
+  background-color: inherit;
+  border-color: var(--btn-primary-outlined-border-color);
+  color: var(--btn-primary-outlined-txt-color);
+}
+.btn.btn-primary.btn-outlined:hover {
+  background-color: var(--btn-primary-outlined-hover-bg-color);
+  border-color: var(--btn-primary-outlined-hover-bg-color);
+  color: var(--btn-primary-outlined-hover-txt-color);
+}
+.btn.btn-primary.btn-outlined:disabled {
+  opacity: 0.6;
+}
+.btn.btn-primary.btn-outlined:disabled:hover {
+  background-color: inherit;
+  color: var(--btn-primary-outlined-txt-color);
+  border-color: var(--btn-primary-outlined-border-color);
+}
+.btn.btn-primary.btn-outlined:focus {
+  background-color: var(--btn-primary-outlined-focused-bg-color);
+  color: var(--btn-primary-outlined-focused-txt-color);
+  border-color: var(
+    --btn-primary-outlined-focused-border-color
+  ) !important;
+}
+
+/* SECONDARY - OUTLINED */
+.btn.btn-secondary.btn-outlined {
+  background-color: inherit;
+  border-color: var(--btn-secondary-outlined-border-color);
+  color: var(--btn-secondary-outlined-txt-color);
+}
+.btn.btn-secondary.btn-outlined:hover {
+  background-color: var(--btn-secondary-hover-bg-color);
+  border-color: var(--btn-secondary-hover-border-color);
+  color: var(--btn-secondary-outlined-hover-txt-color);
+}
+.btn.btn-secondary.btn-outlined:disabled {
+  opacity: 0.6;
+}
+.btn.btn-secondary.btn-outlined:disabled:hover {
+  background-color: inherit;
+  border-color: var(--btn-secondary-outlined-border-color);
+  color: var(--btn-secondary-outlined-txt-color);
+}
+.btn.btn-secondary.btn-outlined:focus {
+  background-color: var(--btn-secondary-outlined-focused-bg-color);
+  color: var(--btn-secondary-outlined-focused-txt-color);
+  border-color: var(
+    --btn-secondary-outlined-focused-border-color
+  ) !important;
+}
+
+/*========================================================= DEFAULT - TOGGLE */
+.btn.btn-toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  gap: 8px;
+}
+.btn.btn-toggle .btn-toggle-box {
+  border-radius: 24px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: left 0.3s ease-in-out;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.btn.btn-toggle .btn-toggle-txt {
+  transition: opacity 0.5s ease-in;
+}
+.btn.btn-toggle.btn-toggle-on .btn-toggle-box {
+  left: 0;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+.btn.btn-toggle.btn-toggle-on .btn-toggle-txt-off {
+  opacity: 0;
+}
+.btn.btn-toggle.btn-toggle-off .btn-toggle-box {
+  left: 50%;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.btn.btn-toggle.btn-toggle-off .btn-toggle-txt-on {
+  opacity: 0;
+}
+/* ================================================================ PRIMARY - TOGGLE */
+/* PRIMARY - TOGGLE - ON */
+.btn.btn-primary.btn-toggle.btn-toggle-on {
+  border-color: var(--btn-primary-toggle-border-color);
+  background-color: var(--btn-primary-toggle-bg-color);
+  color: var(--btn-primary-toggle-txt-color);
+}
+.btn.btn-primary.btn-toggle.btn-toggle-on .btn-toggle-box {
+  background-color: var(--btn-primary-toggle-toggler-bg-color);
+}
+/* PRIMARY - TOGGLE - ON - HOVER */
+.btn.btn-primary.btn-toggle.btn-toggle-on:hover {
+  border-color: var(--btn-primary-hover-border-color);
+  background-color: var(--btn-primary-toggle-hover-bg-color);
+}
+.btn.btn-primary.btn-toggle.btn-toggle-on:hover .btn-toggle-box {
+  background-color: var(--btn-primary-toggle-toggler-hover-bg-color);
+}
+/* PRIMARY - TOGGLE - ON - FOCUS */
+.btn.btn-primary.btn-toggle.btn-toggle-on:focus {
+  border-color: var(--btn-primary-toggle-focus-border-color);
+  background-color: var(--btn-primary-toggle-focus-bg-color);
+  color: var(--btn-primary-toggle-focus-txt-color);
+}
+.btn.btn-primary.btn-toggle.btn-toggle-on:focus .btn-toggle-box {
+  background-color: var(--btn-primary-toggle-focus-toggler-bg-color);
+}
+/* PRIMARY - TOGGLE - OFF */
+.btn.btn-primary.btn-toggle.btn-toggle-off {
+  border-color: var(--btn-primary-toggle-off-border-color);
+  background-color: var(--btn-primary-toggle-off-bg-color);
+  color: var(--btn-primary-toggle-off-txt-color);
+}
+.btn.btn-primary.btn-toggle .btn-toggle-box {
+  background-color: var(--btn-primary-toggle-off-toggler-bg-color);
+}
+/* PRIMARY - TOGGLE - OFF - HOVER */
+.btn.btn-primary.btn-toggle.btn-toggle-off:hover {
+  border-color: var(--btn-primary-toggle-off-hover-border-color);
+  background-color: var(--btn-primary-toggle-off-hover-bg-color);
+}
+.btn.btn-primary.btn-toggle.btn-toggle-off:hover .btn-toggle-box {
+  background-color: var(
+    --btn-primary-toggle-off-toggler-hover-bg-color
+  );
+}
+/* PRIMARY - TOGGLE - OFF - FOCUS */
+.btn.btn-primary.btn-toggle.btn-toggle-off:focus {
+  border-color: var(--btn-primary-toggle-off-focus-border-color);
+  background-color: var(--btn-primary-toggle-off-focus-bg-color);
+  color: var(--btn-primary-toggle-off-focus-txt-color);
+}
+.btn.btn-primary.btn-toggle.btn-toggle-off:focus .btn-toggle-box {
+  background-color: var(
+    --btn-primary-toggle-off-focus-toggler-bg-color
+  );
+}
+/* PRIMARY - TOGGLE - ON - OUTLINED */
+.btn.btn-primary.btn-toggle.btn-outlined {
+  background-color: inherit;
+}
+/* ================================================================ SECONDARY - TOGGLE */
+/* secondary - TOGGLE - ON */
+.btn.btn-secondary.btn-toggle.btn-toggle-on {
+  border-color: var(--btn-secondary-toggle-border-color);
+  background-color: var(--btn-secondary-toggle-bg-color);
+  color: var(--btn-secondary-toggle-txt-color);
+}
+.btn.btn-secondary.btn-toggle.btn-toggle-on .btn-toggle-box {
+  background-color: var(--btn-secondary-toggle-toggler-bg-color);
+}
+/* secondary - TOGGLE - ON - HOVER */
+.btn.btn-secondary.btn-toggle.btn-toggle-on:hover {
+  border-color: var(--btn-secondary-hover-border-color);
+  background-color: var(--btn-secondary-toggle-hover-bg-color);
+}
+.btn.btn-secondary.btn-toggle.btn-toggle-on:hover .btn-toggle-box {
+  background-color: var(
+    --btn-secondary-toggle-toggler-hover-bg-color
+  );
+}
+/* secondary - TOGGLE - ON - FOCUS */
+.btn.btn-secondary.btn-toggle.btn-toggle-on:focus {
+  border-color: var(--btn-secondary-toggle-focus-border-color);
+  background-color: var(--btn-secondary-toggle-focus-bg-color);
+  color: var(--btn-secondary-toggle-focus-txt-color);
+}
+.btn.btn-secondary.btn-toggle.btn-toggle-on:focus .btn-toggle-box {
+  background-color: var(
+    --btn-secondary-toggle-focus-toggler-bg-color
+  );
+}
+/* secondary - TOGGLE - OFF */
+.btn.btn-secondary.btn-toggle.btn-toggle-off {
+  border-color: var(--btn-secondary-toggle-off-border-color);
+  background-color: var(--btn-secondary-toggle-off-bg-color);
+  color: var(--btn-secondary-toggle-off-txt-color);
+}
+.btn.btn-secondary.btn-toggle .btn-toggle-box {
+  background-color: var(--btn-secondary-toggle-off-toggler-bg-color);
+}
+/* secondary - TOGGLE - OFF - HOVER */
+.btn.btn-secondary.btn-toggle.btn-toggle-off:hover {
+  border-color: var(--btn-secondary-toggle-off-hover-border-color);
+  background-color: var(--btn-secondary-toggle-off-hover-bg-color);
+}
+.btn.btn-secondary.btn-toggle.btn-toggle-off:hover .btn-toggle-box {
+  background-color: var(
+    --btn-secondary-toggle-off-toggler-hover-bg-color
+  );
+}
+/* secondary - TOGGLE - OFF - FOCUS */
+.btn.btn-secondary.btn-toggle.btn-toggle-off:focus {
+  border-color: var(--btn-secondary-toggle-off-focus-border-color);
+  background-color: var(--btn-secondary-toggle-off-focus-bg-color);
+  color: var(--btn-secondary-toggle-off-focus-txt-color);
+}
+.btn.btn-secondary.btn-toggle.btn-toggle-off:focus .btn-toggle-box {
+  background-color: var(
+    --btn-secondary-toggle-off-focus-toggler-bg-color
+  );
+}
+/* PRIMARY - TOGGLE - ON - OUTLINED */
+.btn.btn-secondary.btn-toggle.btn-outlined {
+  background-color: inherit;
+}
