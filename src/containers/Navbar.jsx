@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Text txtData={{ type: "h3" }}>Test branch</Text>
+        <Text txtData={{ type: "h3" }}>Gark</Text>
       </div>
       <div className="navbar-menu">
         <NavLink to="/">Home - Buttons</NavLink>
