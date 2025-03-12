@@ -12,6 +12,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-menu">
         <NavLink to="/">Home - Buttons</NavLink>
+        <NavLink to="/links">Links</NavLink>
         <NavLink to="/texts">Texts</NavLink>
       </div>
       <ThemeToggle />

@@ -1,0 +1,34 @@
+:root {
+  /* Link Colors */
+
+  /* Link & UI Elements */
+  /* -------------------------------------------------------------------PRIMARY - COLOR */
+  --lnk-primary-bg-color: var(--color-base-dark);
+  --lnk-primary-border-color: var(--color-base-dark);
+  --lnk-primary-txt-color: var(--system-gray-2);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+}
+
+.lnk {
+  background-color: gray;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.lnk:visited {
+  color: aliceblue;
+}
+
+.lnk-active {
+}
+.lnk-sm {
+}
+.lnk-internal {
+}
+.lnk-external {
+}
+.lnk-primary {
+}
