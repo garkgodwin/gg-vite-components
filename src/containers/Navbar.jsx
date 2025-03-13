@@ -3,6 +3,7 @@ import "./../assets/styles/containers/navbar.css";
 import Text from "../components/Text";
 import { NavLink } from "react-router";
 import ThemeToggle from "../components/ThemeToggle";
+import routes from "../routes/data";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,10 @@ const Navbar = () => {
         <Text txtData={{ type: "h3" }}>Gark</Text>
       </div>
       <div className="navbar-menu">
-        <NavLink to="/">Home - Buttons</NavLink>
-        <NavLink to="/links">Links</NavLink>
-        <NavLink to="/texts">Texts</NavLink>
+        <NavLink to={routes.HOME}>Home</NavLink>
+        <NavLink to={routes.BUTTONS}>Buttons</NavLink>
+        <NavLink to={routes.LINKS}>Links</NavLink>
+        <NavLink to={routes.TEXTS}>Texts</NavLink>
       </div>
       <ThemeToggle />
     </nav>
