@@ -1,0 +1,7 @@
+/* HeroContainer.css */
+.hero-container {
+  background-color: var(--primary-color);
+  color: var(--cta-text-color);
+  padding: 100px 20px;
+  text-align: center;
+}

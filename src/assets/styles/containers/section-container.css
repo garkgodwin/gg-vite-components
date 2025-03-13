@@ -1,0 +1,5 @@
+/* SectionContainer.css */
+.section-container {
+  padding: 64px 0;
+  background-color: var(--background-color);
+}
