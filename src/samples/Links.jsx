@@ -8,14 +8,14 @@ const Links = () => {
         <Link linkData={{ to: "/", txt: "Primary Link" }} />
         <Link
           linkData={{
-            to: "/",
+            to: "/test",
             txt: "Primary Link No Border",
             bordered: false,
           }}
         />
         <Link
           linkData={{
-            to: "/",
+            to: "/test",
             txt: "Primary Link Filled",
             bordered: false,
             filled: true,

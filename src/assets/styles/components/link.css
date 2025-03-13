@@ -22,6 +22,9 @@
   border: none;
 }
 
+.lnk.lnk-filled {
+  border-radius: 8px;
+}
 .lnk-bordered {
   border-bottom: 1px solid black;
 }

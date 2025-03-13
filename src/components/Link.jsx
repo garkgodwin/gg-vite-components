@@ -13,6 +13,7 @@ const GLink = ({ linkData, children }) => {
     bordered = true,
     to = "/",
     txt = "",
+    className = "",
   } = linkData;
 
   if (type === "external") {
@@ -21,9 +22,10 @@ const GLink = ({ linkData, children }) => {
         href={to}
         target={target}
         rel={rel}
+        aria-hidden="true"
         className={`lnk lnk-${variant} lnk-${size} lnk-${type} ${
           filled ? "lnk-filled" : ""
-        } ${bordered ? "lnk-bordered" : ""}`}
+        } ${bordered ? "lnk-bordered" : ""} ${className}`}
       >
         {txt}
         {children}
@@ -38,7 +40,7 @@ const GLink = ({ linkData, children }) => {
           filled ? "lnk-filled" : ""
         } ${bordered ? "lnk-bordered" : ""} ${
           isActive ? "lnk-active" : ""
-        }`
+        } ${className}`
       }
     >
       {txt}
