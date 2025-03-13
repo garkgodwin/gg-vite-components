@@ -1,0 +1,65 @@
+:root {
+  /* Link Colors */
+
+  /* Link & UI Elements */
+  /* PRIMARY - COLOR */
+  --lnk-primary-txt-color: var(--system-gray-8);
+  --lnk-primary-border-color: var(--color-base);
+  /* PRIMARY - COLOR - FILLED */
+  --lnk-primary-filled-txt-color: var(--system-gray-2);
+  --lnk-primary-filled-bg-color: var(--color-base);
+  --lnk-primary-filled-border-color: var(--color-base);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+}
+
+.lnk {
+  margin: 8px;
+  padding: 8px;
+  text-decoration: none;
+  border: none;
+}
+
+.lnk.lnk-filled {
+  border-radius: 8px;
+}
+.lnk-bordered {
+  border-bottom: 1px solid black;
+}
+
+/* PRIMARY */
+.lnk.lnk-primary {
+  color: var(--lnk-primary-txt-color);
+  border-color: var(--lnk-primary-border-color);
+}
+.lnk.lnk-primary.lnk-bordered {
+  border-color: var(--lnk-primary-filled-bg-color);
+}
+.lnk.lnk-primary.lnk-filled {
+  background-color: var(--lnk-primary-filled-bg-color);
+  color: var(--lnk-primary-filled-txt-color);
+}
+
+/* PRIMARY - VISITED */
+.lnk.lnk-primary.lnk-internal:visited {
+  color: var(--lnk-primary-txt-color);
+}
+/* PRIMARY - FILLED - VISITED */
+.lnk.lnk-primary.lnk-internal.lnk-filled:visited {
+  color: var(--lnk-primary-filled-txt-color);
+}
+
+.lnk-filled {
+}
+.lnk-active {
+}
+.lnk-sm {
+}
+.lnk-internal {
+}
+.lnk-external {
+}
+.lnk-primary {
+}
