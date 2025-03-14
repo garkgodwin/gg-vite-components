@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router";
 
 // PAGES
+const HomePage = lazy(() => import("../pages/home/HomePage"));
 const ButtonPage = lazy(() => import("../pages/buttons/ButtonPage"));
 const TextPage = lazy(() => import("../pages/texts/TextPage"));
 const LinkPage = lazy(() => import("../pages/links/LinkPage"));
@@ -16,6 +17,7 @@ const AppRoutes = () => {
   return (
     <Suspense fallback={<LoaderPage />}>
       <Routes>
+        <Route path={routes.HOME} element={<HomePage />} />
         <Route path={routes.BUTTONS} element={<ButtonPage />} />
         <Route path={routes.LINKS} element={<LinkPage />} />
         <Route path={routes.TEXTS} element={<TextPage />} />

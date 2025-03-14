@@ -1,8 +1,12 @@
 import React from "react";
 import "../assets/styles/containers/form-container.css";
 
-const FormContainer = ({ children }) => {
-  return <div className="form-container">{children}</div>;
+const FormContainer = ({ handleSubmit, children }) => {
+  return (
+    <form className="form-container" onSubmit={handleSubmit}>
+      {children}
+    </form>
+  );
 };
 
 export default FormContainer;

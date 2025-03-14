@@ -4,7 +4,7 @@ import Page from "../../containers/Page";
 
 const LoaderPage = () => {
   return (
-    <Page className="loader">
+    <Page className={`loader fade-loading`}>
       <Text
         txtData={{
           type: "h1",
